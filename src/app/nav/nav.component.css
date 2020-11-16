@@ -1,0 +1,44 @@
+a,
+a:hover,
+a:visited {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+header {
+  height: 19px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.logo,
+.nav {
+  float: left;
+  margin-right: 10px;
+}
+
+.material-icons {
+  font-size: 18px;
+}
+
+.user-tools {
+  text-align: right;
+}
